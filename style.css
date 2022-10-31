@@ -1,0 +1,592 @@
+/* CSS style containing the font-family */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+}
+
+/* CSS header style starts here */
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(../imgs/webbackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.logo{
+    color:  #af1e4f;
+    font-size: 50px;
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+span{
+    color:aliceblue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:  #af1e4f;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+/* CSS header style ends here */
+
+/*  */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -40px;
+    opacity: .85;
+}
+.profilebox1{
+    background: #af1e4f;
+    text-align: center;
+    padding: 20px 80px;
+    color: #ffff;
+    position:relative;
+    margin-left: 300px;
+    border-radius: 20px;
+    opacity: .85;
+}
+
+.ph3{
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: aliceblue;
+    padding: 6px;
+    margin-top: 20px;
+    /* opacity: 1.0; */
+}
+
+.profilebottom1{
+    background: aliceblue;
+    color: #0f0f21;
+    padding: 30px 0;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    /* opacity: .85; */
+}
+
+.profilebottom1 p{
+    color: #af1e4f;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    padding: 20px;
+}
+
+.profilebox2{
+    background: #af1e4f;
+    text-align: center;
+    padding: 30px 80px;
+    color: #ffff;
+    position: relative;
+    margin-right: 300px;
+    border-radius: 20px;
+    opacity: .85;
+}
+
+.profilebottom2{
+    background: aliceblue;
+    color: #0f0f21;
+    padding: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+    border-radius: 20px;
+    /* opacity: .85; */
+}
+
+.profilebottom2 p{
+    color: #af1e4f;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    margin-left: 10px;
+    text-align: left;
+    padding: 20px;
+    line-height: 26px;
+}
+
+.profilebottombutton{
+    background-color:aliceblue;
+    border-color: aliceblue;
+    color: #af1e4f;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.profilebottombutton:hover{
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #0f0f21;
+}
+
+.about img{
+    height: auto;
+
+    width: 460px;
+}
+
+.abouttext{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abouttext h2{
+    color: #af1e4f;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+span{
+    color:aliceblue;
+}
+
+.abouttext h5{
+    color: #af1e4f;
+    letter-spacing: 4px;
+    font-size: 22px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.abouttext p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+    margin-top: -30px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.services{
+    background: #af1e4f;
+    width: 100%;
+    padding: 100px 0px;
+    opacity: 0.95;
+}
+
+.title h2{
+    color: #0f0f21;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.title span{
+    color: aliceblue;
+    font-size: 75px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cards{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #0f0f21;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: aliceblue;
+}
+
+h5{
+    color: #af1e4f;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.dev p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.cards .button{
+    background-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.cards .button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.contact{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p{
+    color:#0f0f21;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact p span{
+    color: #af1e4f;
+}
+
+.hire{
+    color: #0f0f21;
+}
+
+.title .hire span{
+    color: #af1e4f;
+}
+
+.contact .buttonhire{
+    background-color:#af1e4f;
+    border-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.contact .buttonhire:hover{
+    background-color: transparent;
+    color: #af1e4f;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background: #0f0f21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img:nth-child(1){
+    width: 200px;
+    height: auto;
+    text-align:center;
+    display:inline-block;
+    margin-top: -140px;
+    margin-bottom: 30px;
+}
+
+footer p:nth-child(2){
+    font-size: 40px;
+    color:#af1e4f;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p:nth-child(3){
+    color: aliceblue;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #af1e4f;
+    border-radius: 50%;
+    margin: 20px 10px;
+    margin-bottom: -300px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.social a:hover{
+    background-color: transparent;
+    color: #af1e4f;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.end{
+    position: absolute;
+    color: aliceblue;
+    bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+
+
+/* 
+.socials img{
+   width: 20px;
+   margin: 30px 5px;
+   cursor: pointer; 
+}
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.profilebottom img{
+    width: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.profilebottombutton{
+    background: #ffff;
+    color: #FF574A;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 10px rgba(175,30,79,255);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* padding: 10px 25px; */
+
+/* margin-top: 10px; */
+
+/* background-image: url(../imgs/webbackground.png); */
+
+/* .main{
+    height: 100vh;
+    width: 100%;
+    background-color: #0f0f21;
+    background-size: cover;
+    background-position: center; 
+} */
+
+/* .profilebox button{
+    background-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .3s;
+    margin-top: 30px;
+} */
+
+    /* margin-top: 30px; */
+
+    /* margin-top: 100px; */
+
+    /* .abg{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+} */
+
+/* .profilebottom2b{
+    background: aliceblue;
+    color: #0f0f21;
+    padding: 30px 0;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+}
+
+.profilebottom2b{
+    background: aliceblue;
+    color: #0f0f21;
+    padding: 30px 0;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+} */
+
+/* .lmg{
+    width: 20%;
+    height: 20%;
+    text-align:center;
+}
+
+.lmg img{
+
+} */
+
+/* .pp1{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 18px;
+} */
+
+
+/* .profilebottombutton{
+    background-color:#af1e4f;
+    border-color: #af1e4f;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.profilebottombutton:hover{
+    background-color: transparent;
+    color: #af1e4f;
+    border: 2px solid;
+    cursor: pointer;
+} */
+
+/* width: 250px; */
